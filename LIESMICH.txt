@@ -1,0 +1,18 @@
+Sitzplan – Web-Version fürs iPad
+================================
+
+Dieser Ordner enthält nur die leere App (HTML, Symbole, Offline-Datei).
+Er enthält KEINE Schülernamen und keine Klassendaten.
+
+So kommt Sitzplan aufs iPad
+1. Den ganzen Ordner auf einen Webspace mit https legen
+   (z. B. Schul-Webserver oder GitHub Pages). Die Datei-Namen nicht ändern.
+2. Auf dem iPad die Adresse in Safari öffnen → Teilen → „Zum Home-Bildschirm“.
+3. In der App oben auf „Aus Nextcloud laden“ tippen → Nextcloud → Sitzplan →
+   Sitzplan-Daten.json. Zurück geht es mit „In Nextcloud sichern“
+   (Teilen → In Dateien sichern → Nextcloud → Sitzplan → Ersetzen).
+
+Die Klassen liegen danach nur im Safari-Speicher dieses iPads und in
+deiner Nextcloud – nie auf dem Webspace.
+
+Neue Version: einfach index.html (und ggf. sw.js) ersetzen.
