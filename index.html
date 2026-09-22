@@ -149,9 +149,13 @@ kbd{font:11px var(--mono);padding:1px 5px;border-radius:5px;border:1px solid var
 
 /* ---------- obere Leiste ---------- */
 #topbar{
-  height:var(--toph); flex:none; display:flex; align-items:center; gap:10px; padding:0 18px;
-  border-bottom:1px solid var(--line); background:color-mix(in srgb,var(--bg) 85%,transparent);
-  position:relative; z-index:30; padding-top:env(safe-area-inset-top); box-sizing:content-box;
+  height: var(--toph); flex: none; display: flex; align-items: center; gap: 10px; padding: 0 18px;
+border-bottom: 1px solid var(--line); 
+background: var(--bg); 
+position: relative; z-index: 30; 
+padding-top: env(safe-area-inset-top, 0px); 
+box-sizing: border-box;
+height: calc(var(--toph) + env(safe-area-inset-top, 0px));
 }
 #topbar .brand{display:none;align-items:center;gap:9px;font-weight:800;font-size:16px;letter-spacing:-.2px}
 #topbar .brand .mark{width:28px;height:28px;border-radius:9px;display:grid;place-items:center;flex:none;background:linear-gradient(135deg,var(--lav),var(--sky) 60%,var(--mint));box-shadow:0 0 16px #c9b3ff44}
